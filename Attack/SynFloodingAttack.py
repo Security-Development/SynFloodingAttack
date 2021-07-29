@@ -6,7 +6,6 @@ from random import *
 def randNum():
     return randint(1000, 9000)
 
-PORT = 22
 SRC = "127.0.0.1"
 DST = RandIP()
 TEXT = (string.ascii_letters+string.digits)*10
